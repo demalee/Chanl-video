@@ -1,9 +1,8 @@
 <template>
 <div id="contact">
-  <img alt="Our Logo" src="../assets/logo.png">
 
-  <h2>Contact us</h2>
-  <p>My name is {{name}} Contact me  by phone on {{ phoneNumber }}, or via my  address at Nairobi City.</p>
+  <h2>Contact Me</h2>
+  <p>My name is {{name}} ,You can reach me through   phone on {{ phoneNumber }} or email {{email}}, or via my  address at Nairobi City.</p>
 </div>
 </template>
 <script>
@@ -12,7 +11,8 @@ export default {
   data() {
     return {
       phoneNumber: '0706244585',
-      name:'Kibet'
+      name:'Kibet',
+      email:'dev.demalee@gmail.com'
     }
   }
 }
@@ -22,6 +22,7 @@ export default {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 2rem;
   margin: 2rem;
+  max-width: 650px;
   border: 1px solid #ddd;
   border-radius: 10px;
 }
